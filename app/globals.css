@@ -7,14 +7,14 @@
   --color-white-200: #F7F7F8;
   --color-white-300: #F1F1F3;
   --color-white-400: #E4E4E7;
-  --color-purple-50: #FFFCFA;
-  --color-purple-100: #FFF7F0;
-  --color-purple-200: #FFF1E5;
-  --color-purple-300: #FFE4CC;
-  --color-purple-400: #FFCA99;
-  --color-purple-500: #FF9533;
-  --color-purple-600: #1A64FF;
-  --color-purple-700: #FF7A00;
+  --color-purple-99: #FBFAFF;
+  --color-purple-97: #F4F0FE;
+  --color-purple-95: #EDE7FE;
+  --color-purple-90: #DBCEFD;
+  --color-purple-75: #A685FA;
+  --color-purple-70: #946CF9;
+  --color-purple-65: #8254F8;
+  --color-purple-60: #703BF7;
   --color-grey-50: #999999;
   --color-grey-100: #808080;
   --color-grey-200: #666666;
@@ -37,6 +37,26 @@
 @utility flex-row-between {
   @apply flex flex-col justify-between items-center;
 }
+@utility font-h1 {
+  @apply text-white leading-[1.2] font-semibold text-[28px] sm:text-[46px] xl:text-6xl
+}
+@utility font-h2 {
+  @apply text-white leading-[1.5] font-semibold text-[28px] sm:text-[38px] xl:text-5xl
+}
+@utility font-cards-sm {
+  @apply text-white leading-[1.5] font-semibold text-lg sm:text-xl xl:text-2xl
+}
+@utility font-cards-md {
+  @apply text-white leading-[1.5] font-semibold text-xl sm:text-2xl xl:text-3xl
+}
+@utility font-paragraph {
+  @apply leading-[1.5] font-medium text-sm sm:text-base xl:text-lg
+}
+@utility font-paragraph-md {
+  @apply leading-[1.5] font-medium text-sm sm:text-[16px] xl:text-xl
+}
+
+
 
 
 
