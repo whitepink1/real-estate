@@ -1,9 +1,10 @@
 import HeaderPromotion from "./HeaderPromotion";
+import Navigation from "./Navigation";
 
 const Header = () => {
-    return(<div className="flex-row-center">
+    return(<div className="flex-row-center w-full">
         <HeaderPromotion />
-        Header
+        <Navigation />
     </div>)
 }
 
