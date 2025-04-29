@@ -31,6 +31,13 @@
 @utility flex-center {
   @apply flex justify-center items-center;
 }
+@utility flex-row-center {
+  @apply flex flex-col justify-center items-center;
+}
+@utility flex-row-between {
+  @apply flex flex-col justify-between items-center;
+}
+
 
 
 
