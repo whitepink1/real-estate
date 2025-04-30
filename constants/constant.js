@@ -36,4 +36,17 @@ export const footerNavigationArray = {
         {name: 'Our Offices', url: '/'},
     ]
 }
+
+export const homepagePropInfo = [
+    {num: '200+', text: 'Happy Customers'},
+    {num: '10k+', text: 'Properties For Clients'},
+    {num: '16+', text: 'Years of Experience'},
+];
+
+export const homepageHeroLink = [
+    {text: 'Find Your Dream Home', icon: '/icons/dream_home.svg', link: '/'},
+    {text: 'Unlock Property Value', icon: '/icons/property_value.svg', link: '/'},
+    {text: 'Effortless Property Management', icon: '/icons/property_manage.svg', link: '/'},
+    {text: 'Smart Investments, Decisions', icon: '/icons/smart_investments.svg', link: '/'},
+];
     
