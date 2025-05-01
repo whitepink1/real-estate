@@ -23,10 +23,17 @@
   --color-grey-15: #262626;
   --color-grey-10: #1A1A1A;
   --color-grey-08: #141414;
+  --color-dropshadow: #191919;
 }
 
 @utility flex-between {
   @apply flex flex-row justify-between items-center;
+}
+@utility flex-start {
+  @apply flex flex-row justify-start items-center;
+}
+@utility flex-around {
+  @apply flex flex-row justify-around items-center;
 }
 @utility flex-between-start {
   @apply flex flex-row justify-between items-start;
@@ -37,11 +44,17 @@
 @utility flex-between-reverse {
   @apply flex-row-reverse justify-between items-center;
 }
+@utility flex-start-start-reverse {
+  @apply flex-row-reverse justify-start items-start;
+}
 @utility flex-center {
   @apply flex flex-row justify-center items-center;
 }
 @utility flex-col-center {
   @apply flex flex-col justify-center items-center;
+}
+@utility flex-col-center-reverse {
+  @apply flex flex-col-reverse justify-center items-center;
 }
 @utility flex-col-between {
   @apply flex flex-col justify-between items-center;
@@ -49,11 +62,20 @@
 @utility flex-col-start {
   @apply flex flex-col justify-between items-start;
 }
+@utility flex-col-center-start {
+  @apply flex flex-col justify-center items-start;
+}
+@utility flex-col-center-start {
+  @apply flex flex-col justify-center items-start;
+}
 @utility font-h1 {
   @apply text-white leading-[1.2] font-semibold text-[28px] lg:text-[46px] xl:text-6xl
 }
 @utility font-h2 {
   @apply text-white leading-[1.5] font-semibold text-[28px] lg:text-[38px] xl:text-5xl
+}
+@utility font-h3 {
+  @apply text-white leading-[1.5] font-semibold text-[24px] lg:text-[30px] xl:text-[40px]
 }
 @utility font-cards-sm {
   @apply text-white leading-[1.5] font-semibold text-lg lg:text-xl xl:text-2xl
@@ -66,6 +88,10 @@
 }
 @utility font-paragraph-md {
   @apply leading-[1.5] font-medium text-base lg:text-lg xl:text-xl
+}
+
+.slick-slide {
+  width: 30vw;
 }
 
 
