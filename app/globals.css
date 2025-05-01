@@ -65,6 +65,9 @@
 @utility flex-col-center-start {
   @apply flex flex-col justify-center items-start;
 }
+@utility flex-col-center-start {
+  @apply flex flex-col justify-center items-start;
+}
 @utility font-h1 {
   @apply text-white leading-[1.2] font-semibold text-[28px] lg:text-[46px] xl:text-6xl
 }
@@ -85,6 +88,10 @@
 }
 @utility font-paragraph-md {
   @apply leading-[1.5] font-medium text-base lg:text-lg xl:text-xl
+}
+
+.slick-slide {
+  width: 30vw;
 }
 
 
