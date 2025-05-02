@@ -1,5 +1,8 @@
 import { Urbanist } from "next/font/google";
 import "./globals.css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import Header from "@/components/Navbar/Header";
 import Footer from "@/components/Navbar/Footer";
 
