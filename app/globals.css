@@ -59,6 +59,9 @@
 @utility flex-col-between {
   @apply flex flex-col justify-between items-center;
 }
+@utility flex-col-between-start {
+  @apply flex flex-col justify-between items-start;
+}
 @utility flex-col-start {
   @apply flex flex-col justify-between items-start;
 }
@@ -78,7 +81,7 @@
   @apply text-white leading-[1.5] font-semibold text-[24px] lg:text-[30px] xl:text-[40px]
 }
 @utility font-cards-sm {
-  @apply text-white leading-[1.5] font-semibold text-lg lg:text-xl xl:text-2xl
+  @apply text-white leading-[1.5] font-medium text-lg lg:text-xl xl:text-2xl
 }
 @utility font-cards-md {
   @apply text-white leading-[1.5] font-semibold text-xl lg:text-2xl xl:text-3xl
@@ -90,8 +93,16 @@
   @apply leading-[1.5] font-medium text-base lg:text-lg xl:text-xl
 }
 
-.slick-slide {
-  width: 30vw;
+@layer utilities {
+  @media (min-width: 724px) and (max-width: 1023px) {
+    .tablet-only {
+      display: block;
+    }
+  }
+
+  .tablet-only {
+    display: none;
+  }
 }
 
 

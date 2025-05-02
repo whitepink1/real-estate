@@ -60,12 +60,23 @@ export const PropertiesData = [
 ];
 
 export const TestimonialsData = [
-    {id: '12',stars: 3, title: 'Smooth Buying Experience', text: 'Found my dream home quickly and easily. Thanks!', name: 'Emily Johnson', location: 'USA / California', img: '/Images/'},
-    {id: '75',stars: 4, title: 'Excellent Support', text: 'Agents were super helpful throughout the process.', name: 'Michael Smith', location: 'USA / Texas', img: '/Images/'},
-    {id: '28',stars: 4, title: 'Highly Recommended', text: 'Great listings and even better customer service!', name: 'Sophia Martinez', location: 'USA / New York', img: '/Images/'},
-    {id: '94',stars: 5, title: 'Stress-Free Process', text: 'Everything went smoothly from search to signing.', name: 'Daniel Lee', location: 'USA / Florida', img: '/Images/'},
-    {id: '89',stars: 3, title: 'Love My New Home', text: 'The team made the process fast and enjoyable.', name: 'Ava Thompson', location: 'USA / Illinois', img: '/Images/'},
-    {id: '55',stars: 5, title: '"Very Satisfied', text: 'Professional, responsive, and easy to work with.', name: 'James Nguyen', location: 'USA / Washington', img: '/Images/'},
-]
+    {id: '12',stars: 3, title: 'Smooth Buying Experience', text: 'Buying my first home felt overwhelming, but this agency made everything so smooth and clear. Highly recommend their service!', name: 'Emily Johnson', location: 'USA / California', img: '/Images/Avatars/avatar1.jpg'},
+    {id: '75',stars: 4, title: 'Excellent Support', text: 'The agents were knowledgeable, patient, and truly cared about my needs. I found the perfect place without stress or pressure.', name: 'Michael Smith', location: 'USA / Texas', img: '/Images/Avatars/avatar2.jpg'},
+    {id: '28',stars: 4, title: 'Highly Recommended', text: 'They knew the market inside and out and helped me find a hidden gem. I felt guided every step of the way with confidence.', name: 'Sophia Martinez', location: 'USA / New York', img: '/Images/Avatars/avatar3.jpg'},
+    {id: '94',stars: 5, title: 'Stress-Free Process', text: "The entire process—from search to closing—was handled with professionalism and care. I couldn't be happier with the outcome.", name: 'Daniel Lee', location: 'USA / Florida', img: '/Images/Avatars/avatar4.jpg'},
+    {id: '89',stars: 3, title: 'Love My New Home', text: 'I appreciated their honesty and attention to detail. It felt like working with a friend who wanted the best for my family and me.', name: 'Ava Thompson', location: 'USA / Illinois', img: '/Images/Avatars/avatar5.jpg'},
+    {id: '55',stars: 5, title: 'Very Satisfied', text: 'Even after closing, the team stayed in touch to make sure I was settled in. Exceptional support and dedication throughout!', name: 'James Nguyen', location: 'USA / Washington', img: '/Images/Avatars/avatar6.jpg'},
+];
+
+export const QuestionsData = [
+    {id: '25', question: 'How do I search for properties on Estatein?', info: 'Learn how to use our user-friendly search tools to find properties that match your criteria.'},
+    {id: '18', question: 'What documents do I need to sell my property through Estatein?', info: 'Find out about the necessary documentation for listing your property with us.'},
+    {id: '49', question: 'How can I contact an Estatein agent?', info: 'Discover the different ways you can get in touch with our experienced agents.'},
+    {id: '33', question: 'Can I schedule a property tour online?', info: 'Learn how to easily book a tour through our platform to visit properties at your convenience.'},
+    {id: '41', question: 'Is my personal information secure on Estatein?', info: 'Understand how we protect your data with industry-standard security measures and privacy practices.'},
+    {id: '57', question: 'What are the fees for using Estatein services?', info: 'Get details about any potential fees or commissions when buying, selling, or renting through our platform.'},
+];
+
+
 
 
