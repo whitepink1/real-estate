@@ -77,6 +77,13 @@ export const QuestionsData = [
     {id: '57', question: 'What are the fees for using Estatein services?', info: 'Get details about any potential fees or commissions when buying, selling, or renting through our platform.'},
 ];
 
+export const OurValuesData = [
+    {title: 'Trust', text: 'Trust is the cornerstone of every successful real estate transaction.', img: '/icons/trust.svg'},
+    {title: 'Excellence', text: 'We set the bar high for ourselves. From the properties we list to the services we provide.', img: '/icons/excellence.svg'},
+    {title: 'Client-Centric', text: 'Your dreams and needs are at the center of our universe. We listen, understand.', img: '/icons/client_centric.svg'},
+    {title: 'Our Commitment', text: 'We are dedicated to providing you with the highest level of service, professionalism', img: '/icons/commitment.svg'},
+]
+
 
 
 

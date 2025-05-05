@@ -44,6 +44,9 @@
 @utility flex-between-reverse {
   @apply flex-row-reverse justify-between items-center;
 }
+@utility flex-center-reverse {
+  @apply flex-row-reverse justify-center items-center;
+}
 @utility flex-start-start-reverse {
   @apply flex-row-reverse justify-start items-start;
 }
