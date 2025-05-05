@@ -82,7 +82,13 @@ export const OurValuesData = [
     {title: 'Excellence', text: 'We set the bar high for ourselves. From the properties we list to the services we provide.', img: '/icons/excellence.svg'},
     {title: 'Client-Centric', text: 'Your dreams and needs are at the center of our universe. We listen, understand.', img: '/icons/client_centric.svg'},
     {title: 'Our Commitment', text: 'We are dedicated to providing you with the highest level of service, professionalism', img: '/icons/commitment.svg'},
-]
+];
+
+export const AchievementsData = [
+    {title: '3+ Years of Excellence', text: "With over 3 years in the industry, we've amassed a wealth of knowledge and experience."},
+    {title: 'Happy Clients', text: "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do."},
+    {title: 'Industry Recognition', text: "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence."},
+];
 
 
 
