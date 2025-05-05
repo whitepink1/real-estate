@@ -68,6 +68,9 @@
 @utility flex-col-start {
   @apply flex flex-col justify-between items-start;
 }
+@utility flex-col-start-start {
+  @apply flex flex-col justify-start items-start;
+}
 @utility flex-col-center-start {
   @apply flex flex-col justify-center items-start;
 }
@@ -108,7 +111,9 @@
   }
 }
 
-
+@utility stepCard {
+  @apply border-1 border-grey-15 rounded-bl-2xl rounded-tr-2xl rounded-br-2xl
+}
 
 
 

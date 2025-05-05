@@ -1,7 +1,9 @@
 import AchievementsCard from "@/components/AchievementsCard";
 import HeroSection from "@/components/HeroSection";
 import HomepageBuildingPart from "@/components/HomepageBuildingPart";
+import NavExperienceCard from "@/components/NavExperienceCard";
 import ComponentHeader from "@/components/Shared/ComponentHeader";
+import TeamCard from "@/components/TeamCard";
 import ValuesCard from "@/components/ValuesCard";
 
 export const metadata = {
@@ -32,5 +34,17 @@ export default function Page() {
                 typeOfCard="half"
                 addClass=""/>
         <AchievementsCard />
+        <ComponentHeader 
+                name='Navigating the Estatein Experience'
+                description="At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works."
+                typeOfCard="half"
+                addClass=""/>
+        <NavExperienceCard />
+        <ComponentHeader 
+                name='Meet the Estatein Team'
+                description="At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality."
+                typeOfCard="half"
+                addClass=""/>
+        <TeamCard />
     </div>)
 }
