@@ -111,7 +111,24 @@ export const ValuedClientsData = [
     {data: "Since 2018", company: "GreenTech Enterprises", link: '/', domain: "Commercial Real Estate", category: "Retail Space", text: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."},
     {data: "Since 2021", company: "UrbanNest Solutions", link: '/', domain: "Residential Real Estate", category: "Smart Apartment Complexes", text: "Estateln's strategic insights helped us optimize our residential projects for maximum efficiency and sustainability. Their team is proactive and results-driven."},
     {data: "Since 2020", company: "SolarSphere Inc.", link: '/', domain: "Green Infrastructure", category: "Eco-Friendly Commercial Parks", text: "Their attention to eco-conscious development matched perfectly with our mission. Estateln guided us through key zoning and site selection decisions with ease."},
+];
+
+export const PropertySelection = [
+    {img: '/icons/location.svg', name: 'Location', options: ['New York','Dallas','Austin','Washington', 'Chikago']},
+    {img: '/icons/property_type.svg', name: 'Property Type', options: ['Villa','Penthouse','Apartment','Townhouse']},
+    {img: '/icons/pricing_range.svg', name: 'Pricing Range', options: ['250k - 500k','500k - 750k','750k - 1m','Over 1 million']},
+    {img: '/icons/property_size.svg', name: 'Property Size', options: ['2000+ square feet','3000+ square feet','4000+ square feet','5000+ square feet']},
+    {img: '/icons/build_year.svg', name: 'Build Year', options: ['1990-2000','2000-2010','2010-2020','2020-2025','In Plan']},
+];
+
+export const PropertyFormData = [
+    {label: "Preferred Location", name: "Select Location", options: ['New York','Dallas','Austin','Washington', 'Chikago']},
+    {label: "Property Type", name: "Select Property Type", options: ['Villa','Penthouse','Apartment','Townhouse']},
+    {label: "No. of Bathrooms", name: "Select no. of Bathrooms", options: [1,2,3]},
+    {label: "No. of Bedrooms", name: "Select no. of Bedrooms", options: [1,2,3,4,5]},
+    {label: "Budget", name: "Select Budget", options: ['250k - 500k','500k - 750k','750k - 1m','Over 1 million']},
 ]
+
 
 
 
