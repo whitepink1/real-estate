@@ -104,6 +104,13 @@ export const TeamData = [
     {name: 'James Henderson', position: 'Lead Software Engineer', img: '/Images/Avatars/team2.jpg'},
     {name: 'Sophia Martinez', position: 'Product Designer', img: '/Images/Avatars/team3.jpg'},
     {name: 'Daniel Nguyen', position: 'Head of Operations', img: '/Images/Avatars/team4.jpg'},
+];
+
+export const ValuedClientsData = [
+    {data: 'Since 2019', company: 'ABC Corporation', link: '/', domain: 'Commercial Real Estate', category: 'Luxury Home Development', text: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."},
+    {data: "Since 2018", company: "GreenTech Enterprises", link: '/', domain: "Commercial Real Estate", category: "Retail Space", text: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."},
+    {data: "Since 2021", company: "UrbanNest Solutions", link: '/', domain: "Residential Real Estate", category: "Smart Apartment Complexes", text: "Estateln's strategic insights helped us optimize our residential projects for maximum efficiency and sustainability. Their team is proactive and results-driven."},
+    {data: "Since 2020", company: "SolarSphere Inc.", link: '/', domain: "Green Infrastructure", category: "Eco-Friendly Commercial Parks", text: "Their attention to eco-conscious development matched perfectly with our mission. Estateln guided us through key zoning and site selection decisions with ease."},
 ]
 
 

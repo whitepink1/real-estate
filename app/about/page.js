@@ -3,8 +3,12 @@ import HeroSection from "@/components/HeroSection";
 import HomepageBuildingPart from "@/components/HomepageBuildingPart";
 import NavExperienceCard from "@/components/NavExperienceCard";
 import ComponentHeader from "@/components/Shared/ComponentHeader";
+import DoubleCard from "@/components/Shared/DoubleCard";
+import PromotingText from "@/components/Shared/PromotingText";
+import SlidercardForTwo from "@/components/Shared/SlidecardForTwo";
 import TeamCard from "@/components/TeamCard";
 import ValuesCard from "@/components/ValuesCard";
+import { ValuedClientsData } from "@/constants/constant";
 
 export const metadata = {
     title: "About Us",
@@ -46,5 +50,16 @@ export default function Page() {
                 typeOfCard="half"
                 addClass=""/>
         <TeamCard />
+        <ComponentHeader 
+                name='Our Valued Clients'
+                description="At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving"
+                typeOfCard="half"
+                addClass=""/>
+        <SlidercardForTwo>
+        {ValuedClientsData.map((item) => (
+          <DoubleCard key={item.company} property={item} />
+        ))}
+        </SlidercardForTwo>
+        <PromotingText />
     </div>)
 }

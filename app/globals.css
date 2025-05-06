@@ -92,6 +92,9 @@
 @utility font-cards-md {
   @apply text-white leading-[1.5] font-semibold text-xl lg:text-2xl xl:text-3xl
 }
+@utility font-double {
+  @apply text-grey-60 leading-[1.5] font-medium text-xs lg:text-sm xl:text-lg
+}
 @utility font-paragraph {
   @apply leading-[1.5] font-medium text-sm lg:text-base xl:text-lg
 }
@@ -113,6 +116,9 @@
 
 @utility stepCard {
   @apply border-1 border-grey-15 rounded-bl-2xl rounded-tr-2xl rounded-br-2xl
+}
+@utility doubleBorder {
+  @apply rounded-xl shadow-[0_0_0px_4px_rgba(49,49,49,0.4)] border-2 border-grey-15
 }
 
 
