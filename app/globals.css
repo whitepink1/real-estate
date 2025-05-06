@@ -120,7 +120,13 @@
 @utility doubleBorder {
   @apply rounded-xl shadow-[0_0_0px_4px_rgba(49,49,49,0.4)] border-2 border-grey-15
 }
+@utility border-bottom {
+  @apply border-b-2 border-grey-15
+}
 
+select {
+  padding-left: 8px;
+}
 
 
 
