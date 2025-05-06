@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import HomepageBuildingPart from "@/components/HomepageBuildingPart";
 import ComponentHeader from "@/components/Shared/ComponentHeader";
 import HeroSectionLinks from "@/components/Shared/HeroSectionLinks";
 import PromotingText from "@/components/Shared/PromotingText";
@@ -13,7 +14,13 @@ import { homepageHeroLink, PropertiesData, QuestionsData, TestimonialsData } fro
 export default function Home() {
   return (
   <div className="w-full">
-      <HeroSection />
+      <HeroSection 
+        title="Discover Your Dream Property with Estatein"
+        text="Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams."
+        addClass=""
+      >
+        <HomepageBuildingPart typeOfPage="home"/>
+      </HeroSection>
       <HeroSectionLinks data={homepageHeroLink} />
       <ComponentHeader 
         name='Featured Properties'

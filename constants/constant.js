@@ -77,6 +77,42 @@ export const QuestionsData = [
     {id: '57', question: 'What are the fees for using Estatein services?', info: 'Get details about any potential fees or commissions when buying, selling, or renting through our platform.'},
 ];
 
+export const OurValuesData = [
+    {title: 'Trust', text: 'Trust is the cornerstone of every successful real estate transaction.', img: '/icons/trust.svg'},
+    {title: 'Excellence', text: 'We set the bar high for ourselves. From the properties we list to the services we provide.', img: '/icons/excellence.svg'},
+    {title: 'Client-Centric', text: 'Your dreams and needs are at the center of our universe. We listen, understand.', img: '/icons/client_centric.svg'},
+    {title: 'Our Commitment', text: 'We are dedicated to providing you with the highest level of service, professionalism', img: '/icons/commitment.svg'},
+];
+
+export const AchievementsData = [
+    {title: '3+ Years of Excellence', text: "With over 3 years in the industry, we've amassed a wealth of knowledge and experience."},
+    {title: 'Happy Clients', text: "Our greatest achievement is the satisfaction of our clients. Their success stories fuel our passion for what we do."},
+    {title: 'Industry Recognition', text: "We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence."},
+];
+
+export const NavExperienceData = [
+    {step: 'Step 01', title: 'Discover a World of Possibilities', text: 'Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location,'},
+    {step: 'Step 02', title: 'Narrowing Down Your Choices', text: "Once you've found properties that catch your eye, save them to your account or make a shortlist. This allows you to compare and revisit your favorites as you make your decision."},
+    {step: 'Step 03', title: 'Personalized Guidance', text: 'Have questions about a property or need more information? Our dedicated team of real estate experts is just a call or message away.'},
+    {step: 'Step 04', title: 'See It for Yourself', text: "Arrange viewings of the properties you're interested in. We'll coordinate with the property owners and accompany you to ensure you get a firsthand look at your potential new home."},
+    {step: 'Step 05', title: 'Making Informed Decisions', text: 'Before making an offer, our team will assist you with due diligence, including property inspections, legal checks, and market analysis. We want you to be fully informed.'},
+    {step: 'Step 06', title: 'Getting the Best Deal', text: "We'll help you negotiate the best terms and prepare your offer. Our goal is to secure the property at the right price and on favorable terms."},
+];
+
+export const TeamData = [
+    {name: 'Emily Thompson', position: 'Chief Marketing Officer', img: '/Images/Avatars/team1.jpg'},
+    {name: 'James Henderson', position: 'Lead Software Engineer', img: '/Images/Avatars/team2.jpg'},
+    {name: 'Sophia Martinez', position: 'Product Designer', img: '/Images/Avatars/team3.jpg'},
+    {name: 'Daniel Nguyen', position: 'Head of Operations', img: '/Images/Avatars/team4.jpg'},
+];
+
+export const ValuedClientsData = [
+    {data: 'Since 2019', company: 'ABC Corporation', link: '/', domain: 'Commercial Real Estate', category: 'Luxury Home Development', text: "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."},
+    {data: "Since 2018", company: "GreenTech Enterprises", link: '/', domain: "Commercial Real Estate", category: "Retail Space", text: "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."},
+    {data: "Since 2021", company: "UrbanNest Solutions", link: '/', domain: "Residential Real Estate", category: "Smart Apartment Complexes", text: "Estateln's strategic insights helped us optimize our residential projects for maximum efficiency and sustainability. Their team is proactive and results-driven."},
+    {data: "Since 2020", company: "SolarSphere Inc.", link: '/', domain: "Green Infrastructure", category: "Eco-Friendly Commercial Parks", text: "Their attention to eco-conscious development matched perfectly with our mission. Estateln guided us through key zoning and site selection decisions with ease."},
+]
+
 
 
 
