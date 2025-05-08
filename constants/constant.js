@@ -51,12 +51,12 @@ export const homepageHeroLink = [
 ];
 
 export const PropertiesData = [
-    {id: '142', name: 'Seaside Serenity Villa', description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', img: '/Images/property_1.png', bedroom: 4, bathroom: 3, type: 'Villa', price: 625000},
-    {id: '15', name: 'Metropolitan Haven', description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...', img: '/Images/property_2.png', bedroom: 2, bathroom: 2, type: 'Villa', price: 550000},
-    {id: '78', name: 'Rustic Retreat Cottage', description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...', img: '/Images/property_3.png', bedroom: 3, bathroom: 3, type: 'Villa', price: 752000},
-    {id: '128', name: 'Seaside Serenity Villa', description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', img: '/Images/property_1.png', bedroom: 4, bathroom: 3, type: 'Villa', price: 625000},
-    {id: '17', name: 'Metropolitan Haven', description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...', img: '/Images/property_2.png', bedroom: 2, bathroom: 2, type: 'Villa', price: 550000},
-    {id: '8', name: 'Rustic Retreat Cottage', description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...', img: '/Images/property_3.png', bedroom: 3, bathroom: 3, type: 'Villa', price: 752000},
+    {id: '142', name: 'Seaside Serenity Villa', description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', img: '/Images/property_1.png', bedroom: 4, bathroom: 3, type: 'Villa', price: 625000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
+    {id: '15', name: 'Metropolitan Haven', description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...', img: '/Images/property_2.png', bedroom: 2, bathroom: 2, type: 'Villa', price: 550000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
+    {id: '78', name: 'Rustic Retreat Cottage', description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...', img: '/Images/property_3.png', bedroom: 3, bathroom: 3, type: 'Villa', price: 752000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
+    {id: '128', name: 'Seaside Modern Villa', description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', img: '/Villa/villa_1.jpg', bedroom: 4, bathroom: 3, type: 'Villa', price: 625000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
+    {id: '17', name: 'Metropolitan Haven', description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...', img: '/Villa/villa_2.jpg', bedroom: 2, bathroom: 2, type: 'Villa', price: 550000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
+    {id: '8', name: 'Rustic Retreat Cottage', description: 'An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community...', img: '/Villa/villa_3.jpg', bedroom: 3, bathroom: 3, type: 'Villa', price: 752000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
 ];
 
 export const TestimonialsData = [
