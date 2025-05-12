@@ -3,7 +3,6 @@ import { PropertyFormData } from "@/constants/constant";
 import SelectOption from "./Shared/SelectOption";
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const PropertiesForm = () => {
     const [method, setMethod] = useState('phone');
@@ -73,7 +72,7 @@ const PropertiesForm = () => {
                 <p className="font-paragraph text-grey-60">
                     <input type="checkbox" className="w-[25px] h-fit"/>I agree with <span className="underline underline-offset-1">Terms of Use</span> and <span className="underline underline-offset-1">Privacy Policy</span>
                 </p>
-                <Link href="/" className="flex-center w-full h-full px-8 py-4 font-paragraph text-white bg-purple-60 rounded-lg lg:w-[300px]">Send Your Message</Link>
+                <button href="/" className="flex-center w-full h-full px-8 py-4 font-paragraph text-white bg-purple-60 rounded-lg lg:w-[300px]">Send Your Message</button>
             </div>
         </form>
     </div>)

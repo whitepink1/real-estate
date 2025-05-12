@@ -127,7 +127,41 @@ export const PropertyFormData = [
     {label: "No. of Bathrooms", name: "Select no. of Bathrooms", options: [1,2,3]},
     {label: "No. of Bedrooms", name: "Select no. of Bedrooms", options: [1,2,3,4,5]},
     {label: "Budget", name: "Select Budget", options: ['250k - 500k','500k - 750k','750k - 1m','Over 1 million']},
-]
+];
+
+export const KeyFeaturesData = [
+    'Expansive oceanfront terrace for outdoor entertaining',
+    "Gourmet kitchen with top-of-the-line appliances",
+    "Private beach access for morning strolls and sunset views",
+    "Master suite with a spa-inspired bathroom and ocean-facing balcony",
+    "Private garage and ample storage space",
+];
+
+export const PricingInfoData = [
+    {title: "Additional Fees", link: "/", options: [
+        {name: "Property Transfer Tax", text: "$25,000", addInfo: "Based on the sale price and local regulations", notRounded: true},
+        {name: "Legal Fees", text: "$3,000", addInfo: "Approximate cost for legal services, including title transfer", notRounded: true},
+        {name: "Home Inspection", text: "$500", addInfo: "Recommended for due diligence", notRounded: false},
+        {name: "Property Insurance", text: "$1,200", addInfo: "Annual cost for comprehensive property insurance", notRounded: true},
+        {name: "Mortgage Fees", text: "$2,700", addInfo: "If applicable, consult with your lender for specific details", notRounded: true},
+    ]},
+    {title: "Monthly Costs", link: "/", options: [
+        {name: "Property Taxes", text: "$1,250", addInfo: "Approximate monthly property tax based on the sale price and local rates", notRounded: true},
+        {name: "Homeowners' Association Fee", text: "$300", addInfo: "Monthly fee for common area maintenance and security", notRounded: true},
+    ]},
+    {title: "Total Initial Costs", link: "/", options: [
+        {name: "Listing Price", text: "$1,250,000", addInfo: "", notRounded: true},
+        {name: "Additional Fees", text: "$29,700", addInfo: "Property transfer tax, legal fees, inspection, insurance", notRounded: true},
+        {name: "Down Payment", text: "$250,000", addInfo: "20%", notRounded: false},
+        {name: "Mortgage Amount", text: "$1,000,000", addInfo: "If applicable", notRounded: false},
+    ]},
+    {title: "Monthly Expenses", link: "/", options: [
+        {name: "Property Taxes", text: "$1,250", addInfo: "", notRounded: true},
+        {name: "Homeowners' Association Fee", text: "$300", addInfo: "", notRounded: true},
+        {name: "Mortgage Payment", text: "Varies based on terms and interest rate", addInfo: "", notRounded: false},
+        {name: "Property Insurance", text: "$100", addInfo: "Approximate monthly cost", notRounded: true},
+    ]},
+];
 
 
 
