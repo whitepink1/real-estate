@@ -2,8 +2,11 @@ import PricingDetails from "@/components/PricingDetails";
 import PropertyDescription from "@/components/PropertyDescription";
 import PropertyDetailsForm from "@/components/PropertyDetailsForm";
 import ComponentHeader from "@/components/Shared/ComponentHeader";
+import PromotingText from "@/components/Shared/PromotingText";
+import QuestionCard from "@/components/Shared/QuestionCard";
+import Slidercard from "@/components/Shared/Slidercard";
 import SwiperSliderV2 from "@/components/Shared/SwiperSliderV2";
-import { PropertiesData } from "@/constants/constant";
+import { PropertiesData, QuestionsData } from "@/constants/constant";
 
 export function generateMetadata({ params }) {
   const properties = PropertiesData.find(p => p.id === params.id);
@@ -47,6 +50,17 @@ export default function Page({ params }) {
         </div>
       </div>
       <PricingDetails price={properties.price}/>
+      <ComponentHeader 
+        name='Frequently Asked Questions'
+        description="Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
+        linkName="View All FAQ’s"
+        link='/'/>
+      <Slidercard borders={false} buttonName="View All FAQ's">
+        {QuestionsData.map((item) => (
+          <QuestionCard key={item.question} property={item} />
+        ))}
+      </Slidercard>
+      <PromotingText />
     </div>
   );
 }

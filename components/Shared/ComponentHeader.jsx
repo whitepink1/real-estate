@@ -9,7 +9,7 @@ const ComponentHeader = ({name, description, linkName, link, addClass = '', type
             <h2 className="font-h2 pl-3 lg:pl-none lg:mb-2">{name}</h2>
             <p className="font-paragraph text-grey-60 pl-3 lg:pl-none">{description}</p>
         </div>
-        {!typeOfCard === "half" && <Link href={String(link)} className="flex-center font-paragraph-md bg-grey-10 text-white mt-auto min-w-[250px] rounded-lg p-4 ml-[15vw] mr-3 border-1 border-grey-15 max-lg:hidden">{linkName}</Link>}
+        {typeOfCard != "half" && <Link href={String(link)} className="flex-center font-paragraph-md bg-grey-10 text-white mt-auto min-w-[250px] rounded-lg p-4 ml-[15vw] mr-3 border-1 border-grey-15 max-lg:hidden">{linkName}</Link>}
     </div>)
 }
 
