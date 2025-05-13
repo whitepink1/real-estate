@@ -47,7 +47,7 @@ export default function Home() {
         description="Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
         linkName="View All FAQ’s"
         link='/'/>
-      <Slidercard borders={false} buttonName="View All Properties">
+      <Slidercard borders={false} buttonName="View All FAQ's">
         {QuestionsData.map((item) => (
           <QuestionCard key={item.question} property={item} />
         ))}
