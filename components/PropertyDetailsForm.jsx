@@ -25,7 +25,7 @@ const PropertyDetailsForm = ({name, addClass}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        //console.log(formData);
 
         setFormData({
         firstName: "",
@@ -38,7 +38,6 @@ const PropertyDetailsForm = ({name, addClass}) => {
         });
     };
 
-    console.log(location)
     return(<form onSubmit={handleSubmit} className={`w-full h-fit p-5 ${addClass}`}>
         <div className="grid grid-cols-1 gap-y-5 p-4 border-2 border-grey-15 rounded-xl xl:grid-cols-2 xl:gap-5">
             <div className="flex-col-start gap-y-2.5">
