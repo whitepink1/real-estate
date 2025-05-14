@@ -1,3 +1,4 @@
+import NotFound from "@/app/not-found";
 import PricingDetails from "@/components/PricingDetails";
 import PropertyDescription from "@/components/PropertyDescription";
 import PropertyDetailsForm from "@/components/PropertyDetailsForm";
@@ -25,7 +26,7 @@ export function generateMetadata({ params }) {
 export default function Page({ params }) {
   const properties = PropertiesData.find(p => p.id === params.id);
 
-  if (!properties) return <div>Not Found</div>;
+  if (!properties) return <NotFound />;
 
   return (<div className="w-full">
       <SwiperSliderV2 data={properties}/>

@@ -2,6 +2,7 @@ import ServicesHead from "@/components/ServicesHead";
 import ComponentHeader from "@/components/Shared/ComponentHeader";
 import HeroSectionLinks from "@/components/Shared/HeroSectionLinks";
 import PromotingText from "@/components/Shared/PromotingText";
+import SmartInvestments from "@/components/SmartInvestments";
 import UnlockProperty from "@/components/UnlockProperty";
 import { homepageHeroLink, PropertyManagment, UnlockPropertyValue } from "@/constants/constant";
 
@@ -25,7 +26,7 @@ export default function Page() {
                 typeOfCard="half"
                 addClass=""/>
         <UnlockProperty data={PropertyManagment} lastTitle="Experience Effortless Property Management" lastText="Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership."/>
-        ABC
+        <SmartInvestments />
         <PromotingText />
     </div>)
 }

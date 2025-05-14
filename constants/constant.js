@@ -177,5 +177,12 @@ export const PropertyManagment = [
     {title: "Legal Guardian", text: "Stay compliant with property laws and regulations effortlessly.", img: "/icons/sun.svg"},
 ];
 
+export const SmartInvestmentsData = [
+    {title: "Market Insight", text: "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions", img: "/icons/tabs.svg"},
+    {title: "ROI Assessment", text: "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments", img: "/icons/fire.svg"},
+    {title: "Customized Strategies", text: "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs", img: "/icons/light_bulb.svg"},
+    {title: "Diversification Mastery", text: "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations", img: "/icons/sun.svg"},
+];
+
 
 
