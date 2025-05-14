@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 import SelectOption from "./Shared/SelectOption";
 import { PropertySelection } from "@/constants/constant";
 import SearchProperty from "./Shared/SearchProperty";

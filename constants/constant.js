@@ -46,7 +46,7 @@ export const homepagePropInfo = [
 export const homepageHeroLink = [
     {text: 'Find Your Dream Home', icon: '/icons/dream_home.svg', link: '/'},
     {text: 'Unlock Property Value', icon: '/icons/property_value.svg', link: '/'},
-    {text: 'Effortless Property Management', icon: '/icons/property_manage.svg', link: '/'},
+    {text: 'Effortless Property Manage', icon: '/icons/property_manage.svg', link: '/'},
     {text: 'Smart Investments, Decisions', icon: '/icons/smart_investments.svg', link: '/'},
 ];
 
@@ -163,7 +163,26 @@ export const PricingInfoData = [
     ]},
 ];
 
+export const UnlockPropertyValue = [
+    {title: "Valuation Mastery", text: "Discover the true worth of your property with our expert valuation services.", img: "/icons/tabs.svg"},
+    {title: "Strategic Marketing", text: "Selling a property requires more than just a listing; it demands a strategic marketing.", img: "/icons/cut.svg"},
+    {title: "Negotiation Wizardry", text: "Negotiating the best deal is an art, and our negotiation experts are masters of it.", img: "/icons/pancakes.svg"},
+    {title: "Closing Success", text: "A successful sale is not complete until the closing. We guide you through the intricate closing process.", img: "/icons/megaphone.svg"},
+];
 
+export const PropertyManagment = [
+    {title: "Tenant Harmony", text: "Our Tenant Management services ensure that your tenants have a smooth and reducing vacancies.", img: "/icons/squares.svg"},
+    {title: "Maintenance Ease", text: "Say goodbye to property maintenance headaches. We handle all aspects of property upkeep.", img: "/icons/geometry.svg"},
+    {title: "Financial Peace of Mind", text: "Managing property finances can be complex. Our financial experts take care of rent collection", img: "/icons/stars.svg"},
+    {title: "Legal Guardian", text: "Stay compliant with property laws and regulations effortlessly.", img: "/icons/sun.svg"},
+];
+
+export const SmartInvestmentsData = [
+    {title: "Market Insight", text: "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions", img: "/icons/tabs.svg"},
+    {title: "ROI Assessment", text: "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments", img: "/icons/fire.svg"},
+    {title: "Customized Strategies", text: "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs", img: "/icons/light_bulb.svg"},
+    {title: "Diversification Mastery", text: "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations", img: "/icons/sun.svg"},
+];
 
 
 
