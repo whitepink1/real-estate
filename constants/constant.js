@@ -50,6 +50,13 @@ export const homepageHeroLink = [
     {text: 'Smart Investments, Decisions', icon: '/icons/smart_investments.svg', link: '/'},
 ];
 
+export const contactUsHeroLink = [
+    {text: "info@estatein.com", icon: "/icons/message.svg", link: "/"},
+    {text: "+1 (123) 456-7890", icon: "/icons/phone_purple.svg", link: "/"},
+    {text: "Main Headquarters", icon: "/icons/location_purple.svg", link: "/"},
+    {text: "Social Media", icon: "/icons/social_media.svg", link: "/"},
+];
+
 export const PropertiesData = [
     {id: '142', name: 'Seaside Serenity Villa', description: 'A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...', img: '/Images/property_1.png', bedroom: 4, bathroom: 3, type: 'Villa', price: 625000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},
     {id: '15', name: 'Metropolitan Haven', description: 'A chic and fully-furnished 2-bedroom apartment with panoramic city views...', img: '/Images/property_2.png', bedroom: 2, bathroom: 2, type: 'Villa', price: 550000, images: ['/Villa/villa_4.jpg','/Villa/villa_5.jpg','/Villa/villa_6.jpg','/Villa/villa_7.jpg','/Villa/villa_8.jpg','/Villa/villa_9.jpg']},

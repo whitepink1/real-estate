@@ -2,6 +2,8 @@
 import { PropertyFormData } from "@/constants/constant";
 import SelectOption from "./Shared/SelectOption";
 import { useState } from "react";
+import FormInput from "./Shared/FormInput";
+import FormSelect from "./Shared/FormSelect";
 
 const PropertyDetailsForm = ({name, addClass}) => {
     const location = PropertyFormData[0].options;
@@ -40,62 +42,53 @@ const PropertyDetailsForm = ({name, addClass}) => {
 
     return(<form onSubmit={handleSubmit} className={`w-full h-fit p-5 ${addClass}`}>
         <div className="grid grid-cols-1 gap-y-5 p-4 border-2 border-grey-15 rounded-xl xl:grid-cols-2 xl:gap-5">
-            <div className="flex-col-start gap-y-2.5">
-                <label className="font-paragraph-md text-white">First Name</label>
-                <input 
-                    required 
-                    name="firstName"
-                    value={formData.firstName}
-                    onChange={handleChange}
-                    maxLength={20} 
-                    type="text" 
-                    placeholder="Enter First Name" 
-                    className="w-full py-4 px-5 rounded-lg font-paragraph text-white placeholder:text-grey-60 bg-grey-10 border-1 border-grey-15 focus:outline-none"/>
-            </div>
-            <div className="flex-col-start gap-y-2.5">
-                <label className="font-paragraph-md text-white">Last Name</label>
-                <input 
-                    required 
-                    name="lastName"
-                    value={formData.lastName}
-                    onChange={handleChange}
-                    maxLength={20} 
-                    type="text" 
-                    placeholder="Enter Last Name" 
-                    className="w-full py-4 px-5 rounded-lg font-paragraph text-white placeholder:text-grey-60 bg-grey-10 border-1 border-grey-15 focus:outline-none"/>
-            </div>
-            <div className="flex-col-start gap-y-2.5">
-                <label className="font-paragraph-md text-white">Email</label>
-                <input 
-                    required 
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    maxLength={20} 
-                    type="email" 
-                    placeholder="Enter your email" 
-                    className="w-full py-4 px-5 rounded-lg font-paragraph text-white placeholder:text-grey-60 bg-grey-10 border-1 border-grey-15 focus:outline-none"/>
-            </div>
-            <div className="flex-col-start gap-y-2.5">
-                <label className="font-paragraph-md text-white">Phone</label>
-                <input 
-                    required 
-                    maxLength={20} 
-                    type="text" 
-                    name="phone"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    placeholder="Enter Phone Number" 
-                    className="w-full py-4 px-5 rounded-lg font-paragraph text-white placeholder:text-grey-60 bg-grey-10 border-1 border-grey-15 focus:outline-none"/>
-            </div>
-            <div className='flex-col-start gap-y-2.5 xl:col-span-2'>
-                <label className="font-paragraph-md text-white">Selected Property</label>
-                <SelectOption
-                    onChange={handleChange}  
-                    name={name} 
-                    options={location}
-                    fieldName="selectedProperty"/>
-            </div>  
+            <FormInput 
+                title="First Name"
+                req={true} 
+                name="firstName" 
+                value={formData.firstName} 
+                onChange={handleChange}
+                maxLength={20} 
+                type="text"
+                placeholder="Enter First Name" 
+                addClass = ""/>
+            <FormInput 
+                title="Last Name"
+                req={true} 
+                name="lastName" 
+                value={formData.lastName} 
+                onChange={handleChange}
+                maxLength={20} 
+                type="text"
+                placeholder="Enter Last Name" 
+                addClass = ""/>
+            <FormInput 
+                title="Email"
+                req={true} 
+                name="email" 
+                value={formData.email} 
+                onChange={handleChange}
+                maxLength={20} 
+                type="email"
+                placeholder="Enter your email" 
+                addClass = ""/>
+            <FormInput 
+                title="Phone"
+                req={true} 
+                name="phone" 
+                value={formData.phone} 
+                onChange={handleChange}
+                maxLength={20} 
+                type="text"
+                placeholder="Enter Phone Number" 
+                addClass = ""/>
+            <FormSelect 
+                title="Selected Property" 
+                onChange={handleChange} 
+                placeholder={name} 
+                options={location}
+                fieldName="selectedProperty" />
+ 
             <div className="flex flex-col gap-y-4 xl:col-span-2">
                 <label className="font-paragraph-md text-white">Message</label>
                 <textarea  
