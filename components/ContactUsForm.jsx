@@ -1,22 +1,38 @@
-"use client"
-import { PropertyFormData } from "@/constants/constant";
+"use client";
+
+import { ContactFormData } from "@/constants/constant";
 import { useState } from "react";
 import FormInput from "./Shared/FormInput";
 import FormSelect from "./Shared/FormSelect";
 import FormMessage from "./Shared/FormMessage";
 import FormSubmitButton from "./Shared/FormSubmitButton";
 
-const PropertyDetailsForm = ({name, addClass}) => {
-    const location = PropertyFormData[0].options;
+const ContactUsForm = () => {
+
     const [formData, setFormData] = useState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        message: "",
-        agree: false,
-        selectedProperty: "",
+            firstName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+            inqueryType: "",
+            refferedFrom: "",
+            message: "",
+            agree: false,
     });
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setFormData({
+            firstName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+            inqueryType: "",
+            refferedFrom: "",
+            message: "",
+            agree: false,
+        });
+    };
 
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
@@ -26,21 +42,8 @@ const PropertyDetailsForm = ({name, addClass}) => {
         }));
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setFormData({
-            firstName: "",
-            lastName: "",
-            email: "",
-            phone: "",
-            message: "",
-            agree: false,
-            selectedProperty: "",
-        });
-    };
-
-    return(<form onSubmit={handleSubmit} className={`w-full h-fit p-5 ${addClass}`}>
-        <div className="grid grid-cols-1 gap-y-5 p-4 border-2 border-grey-15 rounded-xl xl:grid-cols-2 xl:gap-5">
+    return(<form onSubmit={handleSubmit} className={`w-[95vw] h-fit mx-auto p-5 lg:w-[92vw]`}>
+        <div className="grid grid-cols-1 gap-y-5 p-4 border-2 border-grey-15 rounded-xl lg:p-20 lg:gap-7.5 lg:grid-cols-2 xl:grid-cols-3">
             <FormInput 
                 title="First Name"
                 req={true} 
@@ -82,12 +85,17 @@ const PropertyDetailsForm = ({name, addClass}) => {
                 placeholder="Enter Phone Number" 
                 addClass = ""/>
             <FormSelect 
-                title="Selected Property" 
+                title="Inquery Type" 
                 onChange={handleChange} 
-                placeholder={name} 
-                options={location}
-                fieldName="selectedProperty"
-                addClass="xl:col-span-2" />
+                placeholder="Select Iquery Type" 
+                options={ContactFormData[0]}
+                fieldName="inqueryType" />
+            <FormSelect 
+                title="How did you Hear About Us?" 
+                onChange={handleChange} 
+                placeholder="Select" 
+                options={ContactFormData[1]}
+                fieldName="refferedFrom" />
             <FormMessage
                 title="Message" 
                 req={false} 
@@ -95,16 +103,16 @@ const PropertyDetailsForm = ({name, addClass}) => {
                 value={formData.message} 
                 onChange={handleChange} 
                 placeholder="Enter your Message here..."
-                addclass= "xl:col-span-2 "/>
+                addclass= "lg:col-span-2 xl:col-span-3"/>
             <FormSubmitButton
                 req={true} 
                 name="agree"
                 checked={formData.agree} 
                 onChange={handleChange} 
                 buttonText="Send Your Message" 
-                addClass="xl:col-span-2 " />      
+                addClass="lg:col-span-2 xl:col-span-3" />      
         </div>
     </form>)
 }
 
-export default PropertyDetailsForm;
+export default ContactUsForm;
