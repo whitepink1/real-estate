@@ -8,7 +8,7 @@ const PromotingText = () => {
                     <h2 className="font-h2">Start Your Real Estate Journey Today</h2>
                     <p className="font-paragraph text-grey-60">Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
                 </div>
-                <Link href="/" className="flex-center font-paragraph text-white bg-purple-60 rounded-lg w-full h-12 mt-[30px] md:w-[250px] md:h-15">Explore Properties</Link>
+                <Link href="/properties" className="flex-center font-paragraph text-white bg-purple-60 rounded-lg w-full h-12 mt-[30px] md:w-[250px] md:h-15">Explore Properties</Link>
             </div>
         </div>
     </div>)

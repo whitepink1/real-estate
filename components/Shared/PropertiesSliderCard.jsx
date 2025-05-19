@@ -11,7 +11,7 @@ const PropertiesSliderCard = ({property, typeOfProperty = 'regular'}) => {
             </div>
             <h3 className="font-cards-sm mt-5 mb-2 lg:mt-7 lg:mb-1.5">{name}</h3>
             <p className="font-paragraph text-grey-50">{description}
-                <Link href="/" className="text-white underline underline-offset-1 ml-1">Read More</Link>
+                <Link href={`/properties/${id}`} className="text-white underline underline-offset-1 ml-1">Read More</Link>
             </p>
             <div className="grid grid-cols-2 gap-3 my-5 lg:flex-start lg:flex-wrap lg:my-7">
                 <PropShortTags url="/icons/bedroom.svg" text="Bedroom" quantity={bedroom} />

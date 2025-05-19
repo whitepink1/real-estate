@@ -5,23 +5,31 @@ export const navbarArray = [
     {name: 'Services', url: '/services'},
 ];
 
+export const HamburgerMenuData = [
+    {name: 'Home', url: '/'},
+    {name: 'About Us', url: '/about'},
+    {name: 'Properties', url: '/properties'},
+    {name: 'Services', url: '/services'},
+    {name: 'Contact', url: '/contact'},
+];
+
 export const footerNavigationArray = {
     Home: [
-        {name: 'Hero Section', url: '/'},
-        {name: 'Features', url: '/'},
+        {name: 'Hero Section', url: '/#herosection'},
+        {name: 'Features', url: '/services#features'},
         {name: 'Properties', url: '/properties'},
-        {name: 'Testimonials', url: '/'},
-        {name: "FAQ's", url: '/'},
+        {name: 'Testimonials', url: '/#testimonials'},
+        {name: "FAQ's", url: '/#faq'},
     ],
     About: [
-        {name: 'Our Story', url: '/'},
-        {name: 'Our Works', url: '/'},
-        {name: 'How it Works', url: '/'},
-        {name: 'Our Team', url: '/'},
-        {name: 'Our Clients', url: '/'},
+        {name: 'Our Story', url: '/about#story'},
+        {name: 'Our Works', url: '/about#achievements'},
+        {name: 'How it Works', url: '/about#howworks'},
+        {name: 'Our Team', url: '/about#ourteam'},
+        {name: 'Our Clients', url: '/about#ourclients'},
     ],
     Properties: [
-        {name: 'Portfolio', url: '/'},
+        {name: 'Portfolio', url: '/contact#portfolio'},
         {name: 'Categories', url: '/'},
     ],
     Services: [
@@ -33,7 +41,7 @@ export const footerNavigationArray = {
     ],
     Contact: [
         {name: 'Contact Form', url: '/contact'},
-        {name: 'Our Offices', url: '/'},
+        {name: 'Our Offices', url: '/contact#ouroffices'},
     ]
 }
 
