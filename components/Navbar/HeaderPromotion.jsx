@@ -8,7 +8,7 @@ const HeaderPromotion = () => {
             ✨ Discover Your Dream Property with Estatein
             <Link href="/" className="ml-2 underline underline-offset-1">Learn More</Link>
         </p>
-        <button className="w-[26px] h-[26px] flex-center bg-white/10 rounded-full"><Image src="/icons/heroicons-mini/x-mark.png" width={18} height={18} alt="X icon" /></button>
+        <button className="w-[26px] h-[26px] flex-center bg-white/10 rounded-full cursor-pointer"><Image src="/icons/heroicons-mini/x-mark.png" width={18} height={18} alt="X icon" /></button>
     </div>)
 }
 

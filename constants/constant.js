@@ -5,23 +5,31 @@ export const navbarArray = [
     {name: 'Services', url: '/services'},
 ];
 
+export const HamburgerMenuData = [
+    {name: 'Home', url: '/'},
+    {name: 'About Us', url: '/about'},
+    {name: 'Properties', url: '/properties'},
+    {name: 'Services', url: '/services'},
+    {name: 'Contact', url: '/contact'},
+];
+
 export const footerNavigationArray = {
     Home: [
-        {name: 'Hero Section', url: '/'},
-        {name: 'Features', url: '/'},
+        {name: 'Hero Section', url: '/#herosection'},
+        {name: 'Features', url: '/services#features'},
         {name: 'Properties', url: '/properties'},
-        {name: 'Testimonials', url: '/'},
-        {name: "FAQ's", url: '/'},
+        {name: 'Testimonials', url: '/#testimonials'},
+        {name: "FAQ's", url: '/#faq'},
     ],
     About: [
-        {name: 'Our Story', url: '/'},
-        {name: 'Our Works', url: '/'},
-        {name: 'How it Works', url: '/'},
-        {name: 'Our Team', url: '/'},
-        {name: 'Our Clients', url: '/'},
+        {name: 'Our Story', url: '/about#story'},
+        {name: 'Our Works', url: '/about#achievements'},
+        {name: 'How it Works', url: '/about#howworks'},
+        {name: 'Our Team', url: '/about#ourteam'},
+        {name: 'Our Clients', url: '/about#ourclients'},
     ],
     Properties: [
-        {name: 'Portfolio', url: '/'},
+        {name: 'Portfolio', url: '/contact#portfolio'},
         {name: 'Categories', url: '/'},
     ],
     Services: [
@@ -33,7 +41,7 @@ export const footerNavigationArray = {
     ],
     Contact: [
         {name: 'Contact Form', url: '/contact'},
-        {name: 'Our Offices', url: '/'},
+        {name: 'Our Offices', url: '/contact#ouroffices'},
     ]
 }
 
@@ -48,6 +56,13 @@ export const homepageHeroLink = [
     {text: 'Unlock Property Value', icon: '/icons/property_value.svg', link: '/'},
     {text: 'Effortless Property Manage', icon: '/icons/property_manage.svg', link: '/'},
     {text: 'Smart Investments, Decisions', icon: '/icons/smart_investments.svg', link: '/'},
+];
+
+export const contactUsHeroLink = [
+    {text: "info@estatein.com", icon: "/icons/message.svg", link: "/"},
+    {text: "+1 (123) 456-7890", icon: "/icons/phone_purple.svg", link: "/"},
+    {text: "Main Headquarters", icon: "/icons/location_purple.svg", link: "/"},
+    {text: "Social Media", icon: "/icons/social_media.svg", link: "/"},
 ];
 
 export const PropertiesData = [
@@ -183,6 +198,27 @@ export const SmartInvestmentsData = [
     {title: "Customized Strategies", text: "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs", img: "/icons/light_bulb.svg"},
     {title: "Diversification Mastery", text: "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations", img: "/icons/sun.svg"},
 ];
+
+export const ContactFormData = [
+    ["General Inquiry","Request Property Viewing","Ask About Pricing & Availability","Financing or Mortgage Information","Investment Opportunities",],
+    ["Google Search","Social Media (Instagram, Facebook, etc.)","Real Estate Listing Site","Friend or Family Referral","Online Advertisement",],
+];
+
+export const OfficeLocationData = [
+    [
+        {title: "Main Headquarters", adress: "123 Estatein Plaza, City Center, Metropolis", text: "Our main headquarters serve as the heart of Estatein. Located in the bustling city center, this is where our core team of experts operates, driving the excellence and innovation that define us.", email: "info@estatein.com", phone: "+1 (123) 456-7890", location: "Metropolis", link: ""},
+        {title: "Regional Offices", adress: "456 Urban Avenue, Downtown District, Metropolis", text: "Estatein's presence extends to multiple regions, each with its own dynamic real estate landscape. Discover our regional offices, staffed by local experts who understand the nuances of their respective markets.", email: "info@restatein.com", phone: "+1 (123) 628-7890", location: "Metropolis", link: ""},
+    ],[
+        {title: "West Coast Branch", adress: "789 Seaside Boulevard, Oceanfront, San Ventura", text: "Strategically positioned on the Pacific coast, our West Coast Branch connects clients with exclusive waterfront properties and high-demand urban developments. Our team specializes in coastal and luxury real estate.", email: "west@estatein.com", phone: "+1 (213) 987-6543", location: "San Ventura", link: ""},
+        {title: "Eastside Innovation Hub", adress: "321 Tech Park Lane, Innovation District, New Albion", text: "Located in the heart of New Albion’s thriving tech hub, this office focuses on smart homes and future-ready properties. Our agents here work closely with developers of cutting-edge, sustainable housing projects.", email: "east@estatein.com", phone: "+1 (312) 456-7891", location: "New Albion", link: ""},
+    ],[
+        {title: "Southern Operations Center", adress: "654 Palm Grove Road, Greenview Heights, Southport", text: "Our Southern Operations Center ensures comprehensive service coverage across key southern regions. Clients here enjoy a mix of tranquil suburban homes and vibrant metropolitan options.", email: "south@estatein.com", phone: "+1 (404) 875-3421", location: "Southport", link: ""},
+        {title: "Northern Client Lounge", adress: "987 Alpine Trail, Downtown Heights, Northvale", text: "This location offers a premium client experience with a relaxing lounge environment and concierge-style service. Ideal for high-end buyers seeking private consultations and exclusive listings.", email: "north@estatein.com", phone: "+1 (509) 223-8765", location: "Northvale", link: ""},
+    ],
+];
+
+
+
 
 
 

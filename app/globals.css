@@ -102,6 +102,10 @@
   @apply leading-[1.5] font-medium text-base lg:text-lg xl:text-xl
 }
 
+@utility bg-abstract {
+  @apply before:content-[''] before:absolute before:inset-0 before:bg-[url(/abstract_contact.svg)] before:bg-cover before:bg-top before:rounded-xl
+}
+
 @layer utilities {
   @media (min-width: 724px) and (max-width: 1023px) {
     .tablet-only {

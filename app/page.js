@@ -6,10 +6,8 @@ import PromotingText from "@/components/Shared/PromotingText";
 import PropertiesSliderCard from "@/components/Shared/PropertiesSliderCard";
 import QuestionCard from "@/components/Shared/QuestionCard";
 import Slidercard from "@/components/Shared/Slidercard";
-import SwiperSlider from "@/components/Shared/SwiperSlider";
 import TestimonialsSliderCard from "@/components/Shared/TestimonialsSliderCard";
 import { homepageHeroLink, PropertiesData, QuestionsData, TestimonialsData } from "@/constants/constant";
-//import { SwiperSlide } from "swiper/react";
 
 export default function Home() {
   return (
@@ -21,7 +19,7 @@ export default function Home() {
       >
         <HomepageBuildingPart typeOfPage="home"/>
       </HeroSection>
-      <HeroSectionLinks data={homepageHeroLink} />
+      <HeroSectionLinks id="herosection" data={homepageHeroLink} />
       <ComponentHeader 
         name='Featured Properties'
         description='Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein.'
@@ -32,7 +30,8 @@ export default function Home() {
           <PropertiesSliderCard key={id} property={item} />
         ))}
       </Slidercard>
-      <ComponentHeader 
+      <ComponentHeader
+        id="testimonials" 
         name='What Our Clients Say'
         description='Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.'
         linkName='View All Testimonials'
@@ -43,6 +42,7 @@ export default function Home() {
         ))}
       </Slidercard>
       <ComponentHeader 
+        id="faq"
         name='Frequently Asked Questions'
         description="Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
         linkName="View All FAQ’s"

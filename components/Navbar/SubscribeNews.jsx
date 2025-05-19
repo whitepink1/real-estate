@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 const SubscribeNews = () => {
-    const [inputData, setInputData] = useState();
+    const [inputData, setInputData] = useState("");
     const handleChange = (e) => {
         setInputData(e.target.value);
     };

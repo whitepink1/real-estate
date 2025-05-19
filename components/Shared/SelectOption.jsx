@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const SelectOption = ({img = "", name, options, fieldName = "", onChange = () => {}}) => {
+const SelectOption = ({img = "", name = "", options = [], fieldName = "", onChange = () => {}}) => {
     return(<div className={`flex items-center relative w-full 
                 ${img ? 'px-4 h-[52px] bg-grey-08 border-2 border-grey-15 rounded-xl' 
                 : 'py-4 px-5 rounded-lg bg-grey-10 border-1 border-grey-15'}`}>
