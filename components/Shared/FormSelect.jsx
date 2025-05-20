@@ -1,3 +1,4 @@
+"use client"
 import SelectOption from "./SelectOption";
 
 const FormSelect = ({title, onChange, placeholder, options, fieldName, addClass}) => {

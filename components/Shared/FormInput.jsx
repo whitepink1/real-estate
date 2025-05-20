@@ -1,3 +1,4 @@
+"use client";
 const FormInput = ({title = "", req = false, name = "", value = "", onChange = () => {}, maxLength = 20, type = "", placeholder = "", addClass = ""}) => {
     return(<div className="flex-col-start gap-y-2.5">
         <label className="font-paragraph-md text-white">{title}</label>

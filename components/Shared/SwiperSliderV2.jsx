@@ -59,7 +59,9 @@ export default function SwiperSliderV2 ({data}) {
                   }`}
                   onClick={() => goToSlide(idx)}
                 >
-                  <img src={src} className="w-full h-full object-cover" />
+                  <img src={src} 
+                       className="w-full h-full object-cover"
+                       alt={`Min. version of ${activeIndex} slide`} />
                 </div>
               ))}
             </div>
@@ -79,7 +81,7 @@ export default function SwiperSliderV2 ({data}) {
               <SwiperSlide key={id} className="w-full h-[250px]">
                 <img
                   src={src}
-                  alt={`Image #${id}`}
+                  alt={`Full image #${id} property`}
                   className="w-full aspect-video rounded-xl"
                 />
               </SwiperSlide>
@@ -96,19 +98,22 @@ export default function SwiperSliderV2 ({data}) {
                   }`}
                   onClick={() => goToSlide(idx)}
                 >
-                  <img src={src} className="w-full h-full object-cover" />
+                  <img src={src} 
+                       className="w-full h-full object-cover"
+                       alt={`Min. version of ${activeIndex} slide`} />
                 </div>
               ))}
             </div>
           </div>
           <div className='flex-between w-full p-2 bg-grey-08 rounded-full lg:flex-center lg:gap-x-7 lg:w-fit lg:mx-auto lg:mt-5'>
               <button onClick={() => swiperRef.current?.slidePrev()} className="cursor-pointer h-full w-fit">
-                  <img src="/icons/prev.svg" alt="Previous" />
+                  <img src="/icons/prev.svg" alt="Previous Slide" />
               </button>
               <div className="flex justify-center gap-3">
                 {images.map((_, idx) => (
                     <span
                     key={idx}
+                    alt={`Slide № ${activeIndex}`}
                     onClick={() => goToSlide(idx)}
                     className={`block w-3 h-1.5 rounded-full cursor-pointer transition-all duration-200 ${
                         idx === activeIndex ? 'bg-purple-60' : 'bg-grey-30'
@@ -117,7 +122,7 @@ export default function SwiperSliderV2 ({data}) {
               ))}
               </div>
               <button onClick={() => swiperRef.current?.slideNext()} className="cursor-pointer h-full w-fit">
-                  <img src="/icons/next.svg" alt="Next" />
+                  <img src="/icons/next.svg" alt="Next Slide" />
               </button>
           </div>   
       </div>

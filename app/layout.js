@@ -18,16 +18,17 @@ export const metadata = {
     template: "%s / Real Estate Business",
     default: "Welcome / Real Estate Business"
   },
-  description: "",
-  keywords: ["", "", ""],
+  description: "Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.",
+  keywords: ["Real Estate", "Estatein", "Real Estate Business"],
   openGraph: {
-    images: 'https://myvwmwqbvvnhhlmreilo.supabase.co/storage/v1/object/sign/Images/m.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJJbWFnZXMvbS5qcGciLCJpYXQiOjE3NDU2NzMzMTcsImV4cCI6MTc3NzIwOTMxN30.CwrlinBq2xWiqZQ5a6TIIBrrZ5wq_yPEWi0CLo5FYL4',
+    images: '/Villa/villa_2.jpg',
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/icons/site_icon.svg"/>
       <body className={`${urbanistSans.variable} antialiased bg-grey-08`}>
         <Header />
         {children}

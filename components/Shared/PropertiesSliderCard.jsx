@@ -7,7 +7,7 @@ const PropertiesSliderCard = ({property, typeOfProperty = 'regular'}) => {
     return(<div className="mx-auto h-full w-[95vw] lg:px-2 lg:py-4">
         <div className="flex flex-col justify-between items-start mx-auto max-lg:w-[95%] min-h-[530px] h-full p-4 rounded-xl border-2 border-grey-15 lg:px-4 py-7">
             <div className="relative mx-auto w-full aspect-video">
-                <Image className="rounded-xl" src={img} fill alt={name}/>
+                <Image className="rounded-xl" src={img} fill loading="lazy" alt={name}/>
             </div>
             <h3 className="font-cards-sm mt-5 mb-2 lg:mt-7 lg:mb-1.5">{name}</h3>
             <p className="font-paragraph text-grey-50">{description}

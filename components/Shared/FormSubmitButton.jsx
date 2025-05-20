@@ -1,3 +1,4 @@
+"use client"
 const FormSubmitButton = ({req = true, name, checked = false, onChange, buttonText, addClass}) => {
     return(
         <div className={`flex-col-start gap-y-5 w-full lg:flex-between ${addClass}`}>

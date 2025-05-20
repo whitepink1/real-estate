@@ -14,7 +14,7 @@ const TestimonialsSliderCard = ({property}) => {
                 <p className="font-paragraph text-white font-light">{text}</p>
             </div>
             <div className="flex-start gap-4">
-                <Image className="rounded-full" src={img} height={55} width={55} alt={``}/>
+                <Image className="rounded-full" src={img} loading="lazy" height={55} width={55} alt={`Team member: ${name}`}/>
                 <div className="flex-col-start">
                     <p className="font-paragraph-md text-white">{name}</p>
                     <p className="font-paragraph text-grey-60">{location}</p>

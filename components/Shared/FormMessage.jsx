@@ -1,3 +1,4 @@
+"use client"
 const FormMessage = ({title = "", req = false, name = "", value = "", onChange = () => {}, placeholder = "", addclass = ""}) => {
     return(
         <div className={`flex flex-col gap-y-4 ${addclass}`}>
