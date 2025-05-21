@@ -63,7 +63,7 @@ Estatein is a modern, responsive real estate landing page built with **Next.js**
 
 - Designed for showcasing layout & UI design skills.
 
-- Designed by Designed by [Praha | Produce UI](https://www.figma.com/community/file/1314076616839640516/real-estate-business-website-ui-template-dark-theme-produce-ui)
+- Designed by [Praha | Produce UI](https://www.figma.com/community/file/1314076616839640516/real-estate-business-website-ui-template-dark-theme-produce-ui)
 
 ---
 
