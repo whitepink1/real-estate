@@ -42,14 +42,7 @@ Estatein is a modern, responsive real estate landing page built with **Next.js**
 
 ### 📂 Folder Structure
 
-/app
-  /about
-  /contact
-  /home
-/components
-/constants
-/public
-/styles
+<pre> ```bash 📂 app ├── about ├── contact └── home 📂 components 📂 constants 📂 public 📂 styles ``` </pre><pre> ```bash 📂 app ├── about ├── contact └── home 📂 components 📂 constants 📂 public 📂 styles ``` </pre>
 
 ---
 
