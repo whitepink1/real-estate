@@ -27,6 +27,7 @@ Estatein is a modern, responsive real estate landing page built with **Next.js**
 ### 📸 Screenshots
 
 ![Homepage Section](./public/Readme/homepage.jpg)
+![Property Details Section](./public/Readme/property.jpg)
 
 ---
 
@@ -36,16 +37,6 @@ Estatein is a modern, responsive real estate landing page built with **Next.js**
 - Worked with reusable UI components
 - Learned how to structure a landing page project with Next.js
 - Improved layout techniques and animation integration
-
----
-
-### 🚀 Getting Started
-
-```bash
-git clone https://github.com/whitepink1/real-estate.git
-cd real-estate
-npm install
-npm run dev
 
 ---
 
@@ -60,7 +51,6 @@ npm run dev
 /public
 /styles
 
-
 ---
 
 ### 📌 Notes 
@@ -70,3 +60,15 @@ npm run dev
 - No authentication or backend is implemented.
 
 - Designed for showcasing layout & UI design skills.
+
+- Designed by Praha | Produce UI [https://www.figma.com/community/file/1314076616839640516/real-estate-business-website-ui-template-dark-theme-produce-ui](https://www.figma.com/community/file/1314076616839640516/real-estate-business-website-ui-template-dark-theme-produce-ui)
+
+---
+
+### 🚀 Getting Started
+
+```bash
+git clone https://github.com/whitepink1/real-estate.git
+cd real-estate
+npm install
+npm run dev
