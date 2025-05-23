@@ -21,7 +21,7 @@ export const metadata = {
   description: "Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.",
   keywords: ["Real Estate", "Estatein", "Real Estate Business"],
   openGraph: {
-    images: '/Villa/villa_2.jpg',
+    images: 'https://estatein-real-estate.netlify.app/Villa/villa_2.jpg',
   },
 };
 
